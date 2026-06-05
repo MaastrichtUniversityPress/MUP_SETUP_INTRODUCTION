@@ -127,5 +127,6 @@ To summarise, a typical session of updating your book would looks like this:
 4. Make your changes using the formatting above
 5. Click **Preview** to check how it looks
 6. Click **Commit changes**, and write a short description of what you did or changed. 
+7. If a new file is added to the book, you must add it into the `_toc.yml` file, or the changes would not be visible in your book.
 
 Your book will rebuild automatically, and your readers will see the updated version within a few minutes.
