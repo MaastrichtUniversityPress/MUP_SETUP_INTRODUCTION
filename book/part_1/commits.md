@@ -8,14 +8,19 @@ When you commit a change
 **Want to go further?** GitHub also supports something called **branches**. Imagine your book is finished and published, but you want to start working on a new chapter without affecting what your readers currently see. A branch lets you do exactly that, it's like a parallel copy of your book where you can make changes freely, and only merge them into the live version when you're ready. More on this in the advanced guide later on!
 ```
 
-2. **Your live book updates automatically.** TeachBooks detects the new commit and rebuilds your book, so your readers will see the changes within a few minutes.
+2. **Your live book updates automatically.** TeachBooks detects the new commit and rebuilds your book, so your readers will see the changes within a few minutes. This is done under the `Actions` - `All workflows` - `call-deploy-work`, where it shows you a descriptive summary of the build, such as if there were any errors in the whole process and where the book was released online. 
+
+
 
 ## Viewing your commit history
 
 You can browse every change ever made to your book by clicking the **"Commits"** button on your repository's main page, highlighted in yellow in the image below. Each entry in the list represents a saved snapshot of your book at that point in time, along with the message you wrote when you committed.
 
+```{figure} images/commit.png
+:width: 80%
 
-![This image shows the Commits button on your repository's main page.](https://github.com/MaastrichtUniversityPress/MUP_SETUP_INTRODUCTION/blob/main/book/part_1/images/commit.png?raw=true)
+This image shows the Commits button on your repository's main page.
+```
 
 ## Recovering an older version
 
