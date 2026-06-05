@@ -14,7 +14,10 @@ When you commit a change
 
 You can browse every change ever made to your book by clicking the **"Commits"** button on your repository's main page, highlighted in yellow in the image below. Each entry in the list represents a saved snapshot of your book at that point in time, along with the message you wrote when you committed.
 
-```{figure} commit.png
+```{figure} images/commit.png
+:width: 80%
+
+This image shows the Commits button on your repository's main page.
 ```
 
 ## Recovering an older version
