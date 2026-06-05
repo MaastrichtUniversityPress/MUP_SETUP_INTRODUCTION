@@ -15,9 +15,10 @@ parts:
 
   - caption: Your Repository
     chapters:
-    - file: Part 1/part1.md
+    - file: Part 1/repository.md
+    - file: Part 1/commits.md
 
-    
+
   - caption: Exercises
     chapters:
     - file: exercises.md
