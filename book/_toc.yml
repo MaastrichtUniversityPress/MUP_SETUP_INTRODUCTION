@@ -12,6 +12,12 @@ parts:
     - file: some_content/overview.md
       sections:
       - file: some_content/text_and_code.ipynb
+
+  - caption: Your Repository
+    chapters:
+    - file: Part 1/part1.md
+
+    
   - caption: Exercises
     chapters:
     - file: exercises.md
